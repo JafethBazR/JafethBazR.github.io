@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Cumpleaños Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tarjeta" id="tarjeta">
+        <img src="cantando-cumple-feliz.gif" alt="Feliz Cumpleaños" class="gif">
+        <div class="mensaje">
+            <h1>¡Feliz Cumpleaños Llama!</h1>
+            <p>Espero que tengas un día maravilloso lleno de alegría y felicidad.</p>
+        </div>
+        <div class="audio-container">
+            <audio id="audio" loop>
+                <source src="Cumpleaños Feliz.mp3" type="audio/mpeg">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <button id="playpause-btn" class="playpause-btn">&#9658;</button>
+        </div>
+        <div class="velas" id="velas">
+            <div class="llama"></div>
+            <div class="llama"></div>
+            <div class="llama"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
